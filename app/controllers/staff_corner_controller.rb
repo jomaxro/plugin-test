@@ -1,6 +1,6 @@
 class StaffcornerController < ::ApplicationController
         skip_before_action :check_xhr, :redirect_to_login_if_required
-        skip_before_action :require_login
+#        skip_before_action :require_login
     def mark_read
         pulseUserId = params[:pulseUserId]
         topicId = params[:topicId]
