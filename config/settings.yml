@@ -1,0 +1,4 @@
+plugins:
+  mark_read_enabled:
+    default: true
+    client: true
